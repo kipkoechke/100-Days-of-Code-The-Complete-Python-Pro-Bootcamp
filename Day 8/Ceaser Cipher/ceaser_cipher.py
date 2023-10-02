@@ -57,8 +57,9 @@ direction = input("Type 'encode' to encrypt, type 'decode' to decrypt:\n")
 text = input("Type your message:\n").lower()
 shift = int(input("Type the shift number:\n"))
 
+# TODO-1: Combine the encrypt() and decrypt() functions into a single function called caesar().
 
-# TODO-1: Combined the encrypt() and decrypt() functions into a single function called caesar().
+
 def caesar(start_text, shift_amount, cipher_direction):
     end_text = ""
     if cipher_direction == "decode":
@@ -71,3 +72,4 @@ def caesar(start_text, shift_amount, cipher_direction):
 
 
 # TODO-2: Call the caesar() function, passing over the 'text', 'shift' and 'direction' values.
+caesar(start_text=text, shift_amount=shift, cipher_direction=direction)
