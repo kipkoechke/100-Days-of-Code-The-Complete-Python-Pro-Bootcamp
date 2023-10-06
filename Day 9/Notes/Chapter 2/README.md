@@ -1,12 +1,12 @@
 # Nesting in Python: Understanding Lists, Dictionaries, and Combinations
 
-1. **Introduction to Nesting**
+1.**Introduction to Nesting**
 
 - Nesting is a fundamental concept in Python used to structure and organize data more effectively.
 - It involves placing one data structure (e.g., a list or dictionary) inside another.
 - Nesting is essential for handling complex data and creating hierarchical structures.
 
-1. **Nesting Lists**
+1 **Nesting Lists**
 
 - Lists are ordered collections of items, and they can contain other lists.
 - Nesting lists allows you to create multi-dimensional data structures.
@@ -15,7 +15,7 @@ Example:
 ```python
 nested_list = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 ```
-1. **Nesting Dictionaries**
+1.**Nesting Dictionaries**
 
 - Dictionaries are key-value pairs, and you can nest dictionaries inside other dictionaries.
 - This is useful for representing structured information.
