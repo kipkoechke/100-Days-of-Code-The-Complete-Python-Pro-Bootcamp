@@ -40,7 +40,7 @@ Example: `programming_dictionary['bug'] = 'A moth in your computer'`
 
 - To iterate through a dictionary, use a for loop with a variable that represents the keys.
 Example:
-```
+```py
 for key in programming_dictionary:
     value = programming_dictionary[key]
     print(f"{key}: {value}")
