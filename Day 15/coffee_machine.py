@@ -30,3 +30,8 @@ resources = {
     "coffee": 100,
 }
 
+choice = input("What would you like? (espresso/latte/cappuccino): ")
+
+
+
+
