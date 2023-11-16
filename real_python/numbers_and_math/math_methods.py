@@ -8,3 +8,9 @@ abs1 = abs(3)
 abs2 = abs(-5.0)
 print(abs1)
 print(abs2)
+
+# The pow() Function
+pow1 = pow(2, 3)
+pow2 = pow(2, 3, 2)
+print(pow1)
+print(pow2)
