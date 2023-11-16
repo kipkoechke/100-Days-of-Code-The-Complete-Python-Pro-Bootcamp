@@ -14,3 +14,7 @@ pow1 = pow(2, 3)
 pow2 = pow(2, 3, 2)
 print(pow1)
 print(pow2)
+
+# Check if a Float Is Integral
+num = 2.5
+print(num.is_integer())
