@@ -7,3 +7,7 @@ empty_tuple = ()
 tuple_with_single_element = (1,)
 
 print(len(my_first_tuple))
+
+# Tuples Support Indexing and Slicing
+name = "David"
+print(name[1])
