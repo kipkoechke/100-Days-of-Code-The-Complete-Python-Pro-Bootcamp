@@ -1,4 +1,5 @@
 def multiply(x, y):
+    """Return product of numbers x and y"""
     product = x * y
     return product
 
