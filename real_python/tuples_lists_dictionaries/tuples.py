@@ -9,7 +9,7 @@ tuple_with_single_element = (1,)
 print(len(my_first_tuple))
 
 # Tuples Support Indexing and Slicing
-name = "David"
+name = ("D", "a", "v", "i", "d")
 print(name[1])
 
 print(name[2:4])
