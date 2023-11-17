@@ -13,3 +13,7 @@ name = ("D", "a", "v", "i", "d")
 print(name[1])
 
 print(name[2:4])
+
+# Tuples Are Iterable
+for n in name:
+    print(n.upper())
