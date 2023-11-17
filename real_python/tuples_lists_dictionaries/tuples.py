@@ -11,3 +11,5 @@ print(len(my_first_tuple))
 # Tuples Support Indexing and Slicing
 name = "David"
 print(name[1])
+
+print(name[2:4])
