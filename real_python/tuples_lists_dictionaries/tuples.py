@@ -18,6 +18,9 @@ print(name[2:4])
 for n in name:
     print(n.upper())
 
+# Checking Existence of Values With in
+print("a" in name)
+
 
 # Returning Multiple Values From a Function
 def adder_subtractor(num1, num2):
