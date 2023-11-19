@@ -5,3 +5,6 @@ class Dog:
 
     # class attribute
     species = "Canis familiaris"
+
+
+Dog()
