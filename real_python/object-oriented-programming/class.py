@@ -7,7 +7,7 @@ class Dog:
         self.age = age
 
     # Instance method
-    def description(self):
+    def __str__(self):
         return f"{self.name} is {self.age} years old"
 
     # Another instance method
@@ -31,7 +31,6 @@ miles.species = "Felis silvestris"
 print(buddy.age)
 print(miles.species)
 print("********************************")
-print(miles.description())
 print(miles.speak("Woof Woof"))
 print(miles.speak("Bow Bow"))
 print(miles)
