@@ -17,3 +17,8 @@ print(miles.name)
 print(miles.age)
 print("********************************")
 print(f"Class Attribute is: {buddy.species}")
+print("********************************")
+buddy.age = 10
+miles.species = "Felis silvestris"
+print(buddy.age)
+print(miles.species)
