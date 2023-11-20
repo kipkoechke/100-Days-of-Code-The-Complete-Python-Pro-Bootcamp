@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 output_file = open("hello.txt", "w")
 lines_to_write = [
     "\nThis is my file.",
