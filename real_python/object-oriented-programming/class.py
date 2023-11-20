@@ -30,3 +30,7 @@ buddy.age = 10
 miles.species = "Felis silvestris"
 print(buddy.age)
 print(miles.species)
+print("********************************")
+print(miles.description())
+print(miles.speak("Woof Woof"))
+print(miles.speak("Bow Bow"))
