@@ -44,8 +44,15 @@ class Car:
     def __str__(self):
         return f"The {self.color} car has {self.mileage:,} miles"
 
+    def drive(self, miles):
+        self.mileage = self.mileage + miles
+
 
 blue = Car("blue", 20000)
 red = Car("red", 30000)
 print(blue)
 print(red)
+
+blue_car = Car("blue", 0)
+blue_car.drive(100)
+print(blue_car)
