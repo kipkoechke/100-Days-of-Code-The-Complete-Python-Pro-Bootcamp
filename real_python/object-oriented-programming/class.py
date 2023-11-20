@@ -9,3 +9,9 @@ class Dog:
 
 buddy = Dog("Buddy", 9)
 miles = Dog("Miles", 4)
+
+print(buddy.name)
+print(buddy.age)
+print("********************************")
+print(miles.name)
+print(miles.age)
