@@ -13,7 +13,8 @@ class Dog:
 
 
 class JackRussellTerrier(Dog):
-    pass
+    def speak(self, sound="Arf"):
+        return f"{self.name} says {sound}"
 
 
 class Dachshund(Dog):
@@ -29,7 +30,7 @@ buddy = Dachshund("Buddy", 9)
 jack = Bulldog("Jack", 3)
 jim = Bulldog("Jim", 5)
 
-print(isinstance(miles, Dog))
+print(miles.speak())
 print(buddy)
 print(jack)
 print(jim)
