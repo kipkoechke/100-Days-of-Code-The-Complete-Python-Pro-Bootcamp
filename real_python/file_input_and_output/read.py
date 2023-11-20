@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
 input_file = open("hello.txt", "r")
-print(input_file.readlines())
+for line in input_file.readlines():
+    print(line)
 input_file.close()
