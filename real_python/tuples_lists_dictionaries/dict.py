@@ -6,3 +6,5 @@ capitals = {
 }
 print(capitals)
 print(capitals["Texas"])
+capitals["Texas"] = "Houston"
+print(capitals)
