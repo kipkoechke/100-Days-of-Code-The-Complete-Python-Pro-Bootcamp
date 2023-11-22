@@ -8,5 +8,7 @@ print(capitals)
 print(capitals["Texas"])
 capitals["Texas"] = "Houston"
 print(capitals)
+capitals["Colorado"] = "Denver"
+print(capitals)
 del capitals["Texas"]
 print(capitals)
