@@ -34,4 +34,4 @@ Traceback (most recent call last):
 NameError: name 'someon' is not defined
 ```
 
-_Learning how to use Python tracebacks will enable you to grasp every aspect of how your code is being executed. This thorough article offers tips to improve your comprehension of tracebacks and simplify your debugging process, regardless of your level of experience as a developer._
+*Learning how to use Python tracebacks will enable you to grasp every aspect of how your code is being executed. This thorough article offers tips to improve your comprehension of tracebacks and simplify your debugging process, regardless of your level of experience as a developer.*
